@@ -11,9 +11,9 @@ def run_scene(name: str) -> int:
     :return:
     """
     global scene_id
-    authorize = json.load(open('./json/authorize.json', 'r', encoding='utf-8'))
-    if os.path.exists('./json/scenes.json'):
-        scenes = json.load(open('./json/scenes.json', 'r', encoding='utf-8'))
+    authorize = json.load(open('/Users/youzeliang/dev/code/python/mijia/json/authorize.json', 'r', encoding='utf-8'))
+    if os.path.exists('/Users/youzeliang/dev/code/python/mijia/json/scenes.json'):
+        scenes = json.load(open('/Users/youzeliang/dev/code/python/mijia/json/scenes.json', 'r', encoding='utf-8'))
     else:
         scenes = get_scenes(True)
 

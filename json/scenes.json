@@ -1,0 +1,297 @@
+{
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "scene_info_list": [
+            {
+                "scene_id": "1852974894976483328",
+                "uid": "840596343",
+                "home_id": "309001051480",
+                "name": "北京天气",
+                "template_id": "0",
+                "type": 0,
+                "local_dev": "",
+                "enable": true,
+                "enable_push": false,
+                "common_use": false,
+                "timespan": null,
+                "scene_trigger": {
+                    "express": 0,
+                    "triggers": [
+                        {
+                            "id": 0,
+                            "order": 1,
+                            "src": "user",
+                            "key": "user.click",
+                            "extra": "",
+                            "name": "",
+                            "value": "",
+                            "value_type": 5,
+                            "extra_json": {
+                                "voice_alias": {
+                                    "alias": [],
+                                    "use_title": 1
+                                }
+                            },
+                            "value_json": null,
+                            "protocol_type": 2,
+                            "sc_id": 0,
+                            "from": 0,
+                            "value_operation": 0,
+                            "std_sc_id": ""
+                        }
+                    ]
+                },
+                "scene_condition": {
+                    "express": 0,
+                    "conditions": []
+                },
+                "scene_action": {
+                    "mode": 1,
+                    "actions": [
+                        {
+                            "group_id": 0,
+                            "id": 3212,
+                            "order": 1,
+                            "type": 0,
+                            "name": "自定义指令",
+                            "payload": "",
+                            "payload_json": {
+                                "command": "custom_directives",
+                                "delay_time": 0,
+                                "device_name": "小爱音箱Pro",
+                                "did": "319440174",
+                                "model": "xiaomi.wifispeaker.lx06",
+                                "value": [
+                                    "北京天气",
+                                    1
+                                ]
+                            },
+                            "protocol_type": 1,
+                            "sa_id": 3212,
+                            "from": 1,
+                            "device_group_id": 0,
+                            "nested_scene_info": null,
+                            "std_sa_id": ""
+                        }
+                    ]
+                },
+                "value_format": 1,
+                "timewindow": {
+                    "from": "0 0 0 * * * *",
+                    "to": "0 0 0 * * * *",
+                    "filter": "",
+                    "extra": "",
+                    "time_zone": "Asia/Shanghai"
+                },
+                "create_time": "1730618616",
+                "update_time": "1730619919",
+                "sub_usIds": [],
+                "no_record_log": false,
+                "parent_usId": "0",
+                "scene_id_v1": "0",
+                "room_id": "0",
+                "common_used_roomIds": [],
+                "tags": {},
+                "extra": null,
+                "icon_url": "",
+                "enable_consist": false,
+                "scene_version": 0,
+                "temporary": false,
+                "data_type": 0,
+                "hm_extra_info": null
+            },
+            {
+                "scene_id": "1852980604761698304",
+                "uid": "840596343",
+                "home_id": "309001051480",
+                "name": "打开加湿器",
+                "template_id": "0",
+                "type": 0,
+                "local_dev": "",
+                "enable": true,
+                "enable_push": false,
+                "common_use": false,
+                "timespan": null,
+                "scene_trigger": {
+                    "express": 0,
+                    "triggers": [
+                        {
+                            "id": 0,
+                            "order": 1,
+                            "src": "user",
+                            "key": "user.click",
+                            "extra": "",
+                            "name": "",
+                            "value": "",
+                            "value_type": 5,
+                            "extra_json": {
+                                "voice_alias": {
+                                    "alias": [],
+                                    "use_title": 1
+                                }
+                            },
+                            "value_json": null,
+                            "protocol_type": 2,
+                            "sc_id": 0,
+                            "from": 0,
+                            "value_operation": 0,
+                            "std_sc_id": ""
+                        }
+                    ]
+                },
+                "scene_condition": {
+                    "express": 0,
+                    "conditions": []
+                },
+                "scene_action": {
+                    "mode": 1,
+                    "actions": [
+                        {
+                            "group_id": 0,
+                            "id": 2367,
+                            "order": 1,
+                            "type": 0,
+                            "name": "开启加湿器",
+                            "payload": "",
+                            "payload_json": {
+                                "command": "Set_OnOff",
+                                "delay_time": 0,
+                                "device_name": "加湿器",
+                                "did": "273774035",
+                                "model": "deerma.humidifier.mjjsq",
+                                "value": 1
+                            },
+                            "protocol_type": 1,
+                            "sa_id": 2367,
+                            "from": 1,
+                            "device_group_id": 0,
+                            "nested_scene_info": null,
+                            "std_sa_id": ""
+                        }
+                    ]
+                },
+                "value_format": 1,
+                "timewindow": {
+                    "from": "0 0 0 * * * *",
+                    "to": "0 0 0 * * * *",
+                    "filter": "",
+                    "extra": "",
+                    "time_zone": "Asia/Shanghai"
+                },
+                "create_time": "1730619977",
+                "update_time": "1730619977",
+                "sub_usIds": [],
+                "no_record_log": false,
+                "parent_usId": "0",
+                "scene_id_v1": "0",
+                "room_id": "0",
+                "common_used_roomIds": [],
+                "tags": {},
+                "extra": null,
+                "icon_url": "",
+                "enable_consist": false,
+                "scene_version": 0,
+                "temporary": false,
+                "data_type": 0,
+                "hm_extra_info": null
+            },
+            {
+                "scene_id": "1852980679755853824",
+                "uid": "840596343",
+                "home_id": "309001051480",
+                "name": "关闭加湿器",
+                "template_id": "0",
+                "type": 0,
+                "local_dev": "",
+                "enable": true,
+                "enable_push": false,
+                "common_use": false,
+                "timespan": null,
+                "scene_trigger": {
+                    "express": 0,
+                    "triggers": [
+                        {
+                            "id": 0,
+                            "order": 1,
+                            "src": "user",
+                            "key": "user.click",
+                            "extra": "",
+                            "name": "",
+                            "value": "",
+                            "value_type": 5,
+                            "extra_json": {
+                                "voice_alias": {
+                                    "alias": [],
+                                    "use_title": 1
+                                }
+                            },
+                            "value_json": null,
+                            "protocol_type": 2,
+                            "sc_id": 0,
+                            "from": 0,
+                            "value_operation": 0,
+                            "std_sc_id": ""
+                        }
+                    ]
+                },
+                "scene_condition": {
+                    "express": 0,
+                    "conditions": []
+                },
+                "scene_action": {
+                    "mode": 1,
+                    "actions": [
+                        {
+                            "group_id": 0,
+                            "id": 2366,
+                            "order": 1,
+                            "type": 0,
+                            "name": "关闭加湿器",
+                            "payload": "",
+                            "payload_json": {
+                                "command": "Set_OnOff",
+                                "delay_time": 0,
+                                "device_name": "加湿器",
+                                "did": "273774035",
+                                "model": "deerma.humidifier.mjjsq",
+                                "value": 0
+                            },
+                            "protocol_type": 1,
+                            "sa_id": 2366,
+                            "from": 1,
+                            "device_group_id": 0,
+                            "nested_scene_info": null,
+                            "std_sa_id": ""
+                        }
+                    ]
+                },
+                "value_format": 1,
+                "timewindow": {
+                    "from": "0 0 0 * * * *",
+                    "to": "0 0 0 * * * *",
+                    "filter": "",
+                    "extra": "",
+                    "time_zone": "Asia/Shanghai"
+                },
+                "create_time": "1730619995",
+                "update_time": "1730619995",
+                "sub_usIds": [],
+                "no_record_log": false,
+                "parent_usId": "0",
+                "scene_id_v1": "0",
+                "room_id": "0",
+                "common_used_roomIds": [],
+                "tags": {},
+                "extra": null,
+                "icon_url": "",
+                "enable_consist": false,
+                "scene_version": 0,
+                "temporary": false,
+                "data_type": 0,
+                "hm_extra_info": null
+            }
+        ],
+        "distance_ceiling": 2191
+    }
+}

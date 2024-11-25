@@ -1,0 +1,89 @@
+{
+    "code": 0,
+    "message": "",
+    "result": {
+        "homelist": [
+            {
+                "id": "309001051480",
+                "name": "Rolle's home",
+                "bssid": "",
+                "dids": [],
+                "temp_dids": null,
+                "icon": "style_1_favorites",
+                "shareflag": 0,
+                "permit_level": 10,
+                "status": 1,
+                "background": "static3",
+                "smart_room_background": "",
+                "longitude": 0,
+                "latitude": 0,
+                "city_id": 0,
+                "address": "",
+                "create_time": 1530882709,
+                "roomlist": [
+                    {
+                        "id": "309001108585",
+                        "name": "卧室",
+                        "bssid": "",
+                        "parentid": "309001051480",
+                        "dids": [
+                            "240625914",
+                            "273774035",
+                            "319440174",
+                            "433344013",
+                            "433595869",
+                            "571345567",
+                            "94044764",
+                            "blt.3.s5mcj4as4000",
+                            "ir.1790394910248415232"
+                        ],
+                        "icon": "bedroom_1",
+                        "background": "style_1_favorites",
+                        "shareflag": 0,
+                        "create_time": 1568814002
+                    },
+                    {
+                        "id": "309001360999",
+                        "name": "厨房",
+                        "bssid": "",
+                        "parentid": "309001051480",
+                        "dids": [],
+                        "icon": "kitchen_1",
+                        "background": "style_1_favorites",
+                        "shareflag": 0,
+                        "create_time": 1636942886
+                    },
+                    {
+                        "id": "309001107016",
+                        "name": "客厅",
+                        "bssid": "",
+                        "parentid": "309001051480",
+                        "dids": [],
+                        "icon": "livingroom_1",
+                        "background": "style_1_favorites",
+                        "shareflag": 0,
+                        "create_time": 1567860326
+                    },
+                    {
+                        "id": "309001314829",
+                        "name": "床头",
+                        "bssid": "",
+                        "parentid": "309001051480",
+                        "dids": [],
+                        "icon": "more_1",
+                        "background": "style_1_favorites",
+                        "shareflag": 0,
+                        "create_time": 1627317881
+                    }
+                ],
+                "uid": 840596343,
+                "appear_home_list": null,
+                "popup_flag": 0,
+                "popup_time_stamp": 0,
+                "car_did": ""
+            }
+        ],
+        "has_more": false,
+        "max_id": "ir.1790394910248415232"
+    }
+}
